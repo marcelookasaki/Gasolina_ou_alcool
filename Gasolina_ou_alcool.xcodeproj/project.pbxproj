@@ -49,6 +49,7 @@
 		9CF7CF1A28ADABCE0012D9C7 /* Gasolina_ou_alcoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gasolina_ou_alcoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF7CF1E28ADABCE0012D9C7 /* Gasolina_ou_alcoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gasolina_ou_alcoolUITests.swift; sourceTree = "<group>"; };
 		9CF7CF2028ADABCE0012D9C7 /* Gasolina_ou_alcoolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gasolina_ou_alcoolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9CF7CF2F28ADACD20012D9C7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 				9CF7CF0128ADABCA0012D9C7 /* ViewController.swift */,
 				9CF7CF0328ADABCA0012D9C7 /* Main.storyboard */,
 				9CF7CF0628ADABCE0012D9C7 /* Assets.xcassets */,
+				9CF7CF2F28ADACD20012D9C7 /* logo.png */,
 				9CF7CF0828ADABCE0012D9C7 /* LaunchScreen.storyboard */,
 				9CF7CF0B28ADABCE0012D9C7 /* Info.plist */,
 			);
