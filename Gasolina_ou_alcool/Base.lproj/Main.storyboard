@@ -56,6 +56,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="CalcularCombustivel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Grh-bJ-Wh7"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Digite os preços!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77M-wG-2eL">
                                 <rect key="frame" x="20" y="501" width="374" height="94"/>
@@ -69,6 +72,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.58039215686274503" green="0.74117647058823533" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="PrecoAlcoolCampo" destination="mBc-70-fRy" id="awn-Bu-xje"/>
+                        <outlet property="PrecoGasolinaCampo" destination="dzz-bS-7Op" id="Z8r-LK-eun"/>
+                        <outlet property="ResultadoLegenda" destination="77M-wG-2eL" id="K8z-TO-SmG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
